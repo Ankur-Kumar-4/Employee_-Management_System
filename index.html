@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets\employee favi.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar bg-dark py-2 px-3 text-white "><h3>Employee Management System</h3> </nav>
+
+    <main class=" mx-4 mt-5  d-flex gap-5 ">
+
+        <section class="form_aera card p-3  ">
+            <form class="row g-3">
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder ="Name">
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+                </div>
+                <div class="col-4">
+                  <label for="inputAddress" class="form-label">Employee ID</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="ID">
+                </div>
+                <div class="col-8">
+                  <label for="inputAddress2" class="form-label">Company Name</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Company Name">
+                </div>
+                
+                <div class="col-4">
+                  <label for="inputState" class="form-label">Designation</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>SDE</option>
+                    <option></option>
+                  </select>
+                </div>
+                
+               
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Add Employee</button>
+                </div>
+              </form>
+
+        </section>
+
+        <section class="table_aera card py-2">
+            <table class="table table-striped  table-hover ">
+                <thead>
+                  <tr>
+                    <th scope="col">Employee Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Employee ID</th>
+                    <th scope="col">Company Name</th>
+                    <th scope="col">Designation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ankur Kumar</td>
+                    <td>abc@gmail.com</td>
+                    <td>5124</td>
+                    <td>Google</td>
+                    <td>SDE</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+
+
+
+       
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="index.js"></script>    
+</body>
+</html>

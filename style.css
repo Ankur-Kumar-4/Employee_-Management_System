@@ -1,0 +1,14 @@
+.form_aera{
+flex: 2;
+box-shadow: 1px 1px 30px rgb(2, 150, 248);
+background-color: rgb(242, 242, 242) !important;
+transition: box-shadow 1.2s ;
+}
+.table_aera{
+flex: 5;
+background-color: rgb(242, 242, 242) !important;
+}
+
+.form_aera:hover{
+box-shadow: 1px 1px 30px rgb(237, 8, 57);  
+}
